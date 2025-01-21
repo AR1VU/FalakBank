@@ -1,0 +1,28 @@
+<svg width="860" height="540" viewBox="0 0 860 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_497_146)">
+<g filter="url(#filter0_b_497_146)">
+<rect width="860" height="540" rx="40" fill="black"/>
+</g>
+<path d="M533.53 -297.03C549.53 -313.03 575.47 -313.03 591.47 -297.03L766.03 -122.47C782.03 -106.47 782.03 -80.5297 766.03 -64.5301L591.47 110.03C575.47 126.03 549.53 126.03 533.53 110.03L358.97 -64.5301C342.97 -80.5297 342.97 -106.47 358.97 -122.47L533.53 -297.03Z" fill="url(#paint0_linear_497_146)" fill-opacity="0.6"/>
+<path d="M684.03 -95.0301C700.03 -111.03 725.97 -111.03 741.97 -95.0301L916.03 79.0301C932.03 95.0297 932.03 120.97 916.03 136.97L741.97 311.03C725.97 327.03 700.03 327.03 684.03 311.03L509.97 136.97C493.97 120.97 493.97 95.0297 509.97 79.0301L684.03 -95.0301Z" fill="url(#paint1_linear_497_146)" fill-opacity="0.6"/>
+</g>
+<defs>
+<filter id="filter0_b_497_146" x="-150" y="-150" width="1160" height="840" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="75"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_497_146"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_497_146" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_497_146" x1="562.5" y1="-326" x2="562.5" y2="139" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0"/>
+<stop offset="1" stop-color="#FFC78C"/>
+</linearGradient>
+<linearGradient id="paint1_linear_497_146" x1="713" y1="-124" x2="713" y2="340" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0"/>
+<stop offset="1" stop-color="#FFC78C"/>
+</linearGradient>
+<clipPath id="clip0_497_146">
+<rect width="860" height="540" rx="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>
