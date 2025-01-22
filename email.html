@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Auto redirect on load -->
+    <!-- <meta http-equiv="refresh" content="0;url=https://falakapp.vercel.app/coming" /> -->
+
+    <title>Al Falak Bank</title>
+    <!-- favicon  -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/fav_icon.svg"
+      type="image/x-icon"
+    />
+    <!-- faremwork of css -->
+    <link rel="stylesheet" href="/assets/css/bootstrap-lib/bootstrap.min.css" />
+    <!-- style sheet of css -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Responsive sheet of css -->
+    <link rel="stylesheet" href="/assets/css/responsive.css" />
+    <!-- fonts awsome icon link  -->
+    <link
+      rel="stylesheet"
+      href="/assets/font-awesome-lib/icon/font-awesome.min.css"
+    />
+    <!-- slick-slider link css -->
+    <link rel="stylesheet" href="/assets/css/slick.min.css" />
+    <!-- animation of css -->
+    <link rel="stylesheet" href="/assets/css/aos.css" />
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <!-- ======== 1.1. Header section ======== -->
+      <header>
+        <nav
+          class="navbar navbar-expand-lg container pt-lg-4 pt-3 pb-lg-4 pb-3"
+        >
+          <div
+            class="container-fluid justify-content-lg-start justify-content-between"
+          >
+            <!-- site logo -->
+            <a class="nav-logo p-0" href="/">
+              <figure>
+                <img
+                  src="/assets/images/logo.svg"
+                  alt="logo"
+                  style="width: 100%"
+                />
+              </figure>
+            </a>
+            <!-- navigation button  -->
+            <div class="d-flex gap-3 flex-row-reverse">
+              <button class="open-aside" onclick="open_aside()" type="button">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <!-- navigation bar manu  -->
+              <div
+                class="d-flex justify-content-between gap-xl-4 gap-lg-3 w-100 align-items-center"
+              >
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul
+                    class="navbar-nav d-flex justify-content-center align-items-center gap-lg-4 gap-md-3 gap-sm-2 gap-2 mb-2 mb-lg-0"
+                  >
+                    <li class="nav-item">
+                      <a class="nav-link active" href>Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/noura/">Noura AI</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/cards/">Cards</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/blog/">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/contact/">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <a class="hover1 down-btn" id="getStartedAnchor"
+                    >Coming Soon</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!--===== aside navigation slidebar =====-->
+        <aside>
+          <div id="mySidenav" class="right-sidbar">
+            <div
+              class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo"
+            >
+              <figure class="navbar-brand">
+                <a href="/">
+                  <img src="/assets/images/logo.svg" alt="Logo" />
+                </a>
+              </figure>
+              <button
+                class="fa-solid fa-xmark"
+                onclick="close_aside()"
+              ></button>
+            </div>
+
+            <ul class="pt-4">
+              <li class="nav-item">
+                <a aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a>Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact/">Contact</a>
+              </li>
+              <li class="nav-item">
+                <div
+                  class="d-flex align-items-center justify-content-between"
+                  id="slid-btn"
+                >
+                  <button class="a-slid page-btn">Pages</button>
+                  <i class="fa-solid fa-caret-down pe-2"></i>
+                </div>
+                <ul id="slid-drop">
+                  <li><a href="/cards/">Pricing</a></li>
+                  <li>
+                    <a href="Testimonials.html">Testimonials</a>
+                  </li>
+                  <li><a href="Team.html">Team</a></li>
+                  <li><a href="Blogs.html">Blogs</a></li>
+                  <li>
+                    <a href="BlogDetails.html">Blog Details</a>
+                  </li>
+                  <li><a href="Error.html">404</a></li>
+                  <li>
+                    <a href="ComingSoon.html">Coming Soon</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </header>
+      <!-- ======== End of 1.1. Header section ======== -->
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <img
+              src="/assets/images/icons/Confirmation_1.gif"
+              alt="submitIcon"
+            />
+            <div>
+              <h4>Response Submitted</h4>
+              <h6>Your details have been successfully submitted. Thanks</h6>
+            </div>
+          </div>
+        </div>
+ 
+      <!-- ======== End of 1.12. Footer section ======== -->
+    </div>
+
+    <!-- bootstrap min javascript -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="/assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- j Query -->
+    <script src="/assets/js/jquery.js"></script>
+    <!-- slick slider js -->
+    <script src="/assets/js/slick.min.js"></script>
+    <!-- main javascript -->
+    <script src="/assets/js/custom.js"></script>
+    <!-- animation from javascript -->
+    <script src="/assets/js/aos.js"></script>
+
+    <script>
+        // return to the previous page
+        function goBack() {
+          window.history.back();
+        }
+
+        // return to the previous page after 2 seconds of page load
+        setTimeout(() => {
+          goBack();
+        }, 5000);
+    </script>
+
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'8eac9d5cbd2eee53',t:'MTczMjk4ODM0NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener)
+            document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState &&
+                ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>

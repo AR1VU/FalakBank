@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pricing - Falak</title>
+    <title>Al Falak Bank</title>
     <!-- favicon  -->
     <link
       rel="shortcut icon"
-      href="//assets/images/logo.svg"
+      href="/assets/images/fav_icon.svg"
       type="image/x-icon"
     />
     <!-- faremwork of css -->
@@ -346,7 +346,7 @@
                   background-color: black;
                   background-position: 0;
                   background-repeat: no-repeat;
-                  background-size: cover;
+                  background-size: 105%;
                 "
                 data-aos="flip-left"
               >
@@ -354,8 +354,9 @@
                 <p class="pb-2 flex-grow-1">
                   Empowering the next generation with a card designed for young
                   achievers. Enjoy convenience, smart savings, and features that
-                  fit your dynamic lifestyle.
+                  fit your dynamic lifestyle. 
                 </p>
+                <p>We love minors!</p>
                 <div class="d-flex gap-2 align-items-center">
                   <h2 style="width: 25%">
                     <span class="number d-inline">Free</span>
@@ -379,43 +380,22 @@
             <h2>Get Latest Updates</h2>
             <form
               class="d-flex justify-content-center align-items-center gap-lg-4 w-100"
+              action="https://formsubmit.co/65541a43ce9e771dd10909bda8481a56"
+              method="POST"
             >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_subject" value="New email subscribtion!">
+              <input type="hidden" name="_next" value="https://falakbank.vercel.app/email.html">
               <input
+                name="email"
                 type="email"
                 placeholder="Enter Your Email"
-                required
-                name="footerEmail"
+                required  
               />
-              <button type="submit" class="hover1">Subscribe</button>
+              <button type="submit" name="submit" class="hover1">
+                Subscribe
+              </button>
             </form>
-            <div
-              class="modal fade"
-              data-bs-backdrop="static"
-              data-bs-keyboard="false"
-              tabindex="-1"
-            >
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <img
-                    src="/assets/images/icons/Confirmation_1.gif"
-                    alt="submitIcon"
-                  />
-                  <div>
-                    <h4>Response Submitted</h4>
-                    <h6>
-                      Your details have been successfully submitted. Thanks
-                    </h6>
-                  </div>
-                  <button
-                    type="button"
-                    class="hover1 m-auto"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="d-flex justify-content-between w-100">
             <div

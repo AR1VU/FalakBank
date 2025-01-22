@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noura AI | Al Falak Bank</title>
+    <title>Al Falak Bank</title>
     <!-- favicon  -->
     <link
       rel="shortcut icon"
       href="/assets/images/fav_icon.svg"
       type="image/x-icon"
     />
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <!-- faremwork of css -->
     <link rel="stylesheet" href="/assets/css/bootstrap-lib/bootstrap.min.css" />
     <!-- style sheet of css -->
@@ -40,7 +41,13 @@
           >
             <!-- site logo -->
             <a class="nav-logo p-0" href="/">
-              <figure><img src="/assets/images/logo.svg" alt="logo" style="width: 100%;"/></figure>
+              <figure>
+                <img
+                  src="/assets/images/logo.svg"
+                  alt="logo"
+                  style="width: 100%"
+                />
+              </figure>
             </a>
             <!-- navigation button  -->
             <div class="d-flex gap-3 flex-row-reverse">
@@ -61,31 +68,24 @@
                     <li class="nav-item">
                       <a class="nav-link" href="/">Home</a>
                     </li>
-                    
+
                     <li class="nav-item">
-                      <a class="nav-link active" href="/noura/"
-                        >Noura AI</a
-                      >
+                      <a class="nav-link" href="/noura/">Noura AI</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="/cards/"
-                        >Cards</a
-                      >
+                      <a class="nav-link" href="/cards/">Cards</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="/blog/"
-                        >Blog</a
-                      >
+                      <a class="nav-link active" href="/blog/">Blog</a>
                     </li>
-                    
                     <li class="nav-item">
                       <a class="nav-link" href="/contact/">Contact</a>
                     </li>
                   </ul>
                 </div>
-                
+
                 <div>
                   <a class="hover2 down-btn" id="getStartedAnchor"
                     >Coming Soon</a
@@ -95,7 +95,7 @@
             </div>
           </div>
         </nav>
-        
+
         <!--===== aside navigation slidebar =====-->
         <aside>
           <div id="mySidenav" class="right-sidbar">
@@ -119,15 +119,15 @@
               <li class="nav-item">
                 <a href="About.html">About</a>
               </li>
-              <li class="nav-item active">
-                <a >Services</a>
+              <li class="nav-item">
+                <a>Services</a>
               </li>
               <li class="nav-item">
                 <a href="/contact/">Contact</a>
               </li>
               <li class="nav-item">
                 <div
-                  class="d-flex align-items-center justify-content-between"
+                  class="active d-flex align-items-center justify-content-between"
                   id="slid-btn"
                 >
                   <button class="a-slid page-btn">Pages</button>
@@ -141,7 +141,7 @@
                   <li><a href="Team.html">Team</a></li>
                   <li><a href="Blogs.html">Blogs</a></li>
                   <li>
-                    <a href="BlogDetails.html">Blog Details</a>
+                    <a href="BlogDetails.html" class="active">Blog Details</a>
                   </li>
                   <li><a href="Error.html">404</a></li>
                   <li>
@@ -154,17 +154,111 @@
         </aside>
       </header>
       <!-- ======== End of 1.1. Header section ======== -->
-      <!-- ======== End of 2.1. Subpage_Hero section ======== -->
-      <section class="Subpage_Hero">
+      <!-- ======== 8.1. BlogDetails_Hero section ======== -->
+      <section class="BlogDetails_Hero">
         <div class="container">
-          <div class="d-flex flex-column text-center" data-aos="zoom-in-up" style="justify-content: center; align-items: center; height: 75vh;">
-            <iframe src="https://falakapp.vercel.app/pages/ai/" frameborder="0" style="height: 100%; width: 90%; border-radius: 20px;"></iframe>
-
+          <div
+            class="d-flex flex-column gap-md-5 gap-4 position-relative"
+            data-aos="zoom-in-up"
+          >
+            <h2>The Impact of Geopolitical Uncertainty on Global Markets</h2>
+            <figure>
+              <img class="w-100" src="./4.webp" alt="geopolitics" />
+              </figure>
+            <div class="d-flex flex-column gap-4">
+              <p>
+                Geopolitical uncertainty is a constant presence in the global market,
+                driven by factors such as international conflicts, trade disputes, and
+                political instability. These events can have a significant impact on
+                market volatility, investor sentiment, and economic growth.
+              </p>
+      
+              <h4 style="color: white">Key Impacts</h4>
+      
+              <ul class="d-flex flex-column gap-4">
+                <li>
+                  <p class="d-inline">
+                    <b>Market Volatility</b>: <br />
+                    Geopolitical events can trigger sudden and sharp movements in stock
+                    prices, currency exchange rates, and commodity prices. This
+                    volatility can create uncertainty and risk for investors.
+                  </p>
+                </li>
+                <li>
+                  <p class="d-inline">
+                    <b>Disruption of Global Trade</b>: <br />
+                    Trade disputes and sanctions can disrupt global supply chains,
+                    increase costs for businesses, and slow down economic growth.
+                  </p>
+                </li>
+                <li>
+                  <p class="d-inline">
+                    <b>Investor Sentiment</b>: <br />
+                    Geopolitical uncertainty can erode investor confidence, leading to
+                    a flight to safety as investors seek refuge in less risky assets
+                    such as government bonds and gold.
+                  </p>
+                </li>
+                <li>
+                  <p class="d-inline">
+                    <b>Currency Fluctuations</b>: <br />
+                    Geopolitical events can cause significant fluctuations in currency
+                    exchange rates, impacting international trade and investment
+                    flows.
+                  </p>
+                </li>
+              </ul>
+              <br />
+              <h4 style="color: white">Mitigating the Impact</h4>
+      
+              <ul class="d-flex flex-column gap-4">
+                <li>
+                  <p class="d-inline">
+                    <b>Diversification</b>: <br />
+                    Diversifying investment portfolios across different asset classes,
+                    regions, and currencies can help to mitigate the impact of
+                    geopolitical events.
+                  </p>
+                </li>
+                <li>
+                  <p class="d-inline">
+                    <b>Risk Management</b>: <br />
+                    Implementing robust risk management strategies, such as hedging
+                    against currency fluctuations and using derivatives to manage
+                    market volatility, can help to protect investment portfolios.
+                  </p>
+                </li>
+                <li>
+                  <p class="d-inline">
+                    <b>Staying Informed</b>: <br />
+                    Staying informed about global events and their potential impact on
+                    the market is crucial for making informed investment decisions.
+                  </p>
+                </li>
+                <li>
+                  <p class="d-inline">
+                    <b>Long-Term Perspective</b>: <br />
+                    Maintaining a long-term investment perspective can help to weather
+                    short-term market fluctuations caused by geopolitical events.
+                  </p>
+                </li>
+              </ul>
+      
+              <br />
+              <h4 style="color: white;">Conclusion</h4>
+              <p class="d-inline">
+                Geopolitical uncertainty is an inherent feature of the global market.
+                By understanding its potential impact and implementing appropriate
+                risk management strategies, investors can navigate these challenges
+                and achieve their long-term financial goals.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <!-- ======== End of 2.1. Subpage_Hero section ======== -->
+      <!-- ======== End of 8.1. BlogDetails_Hero section ======== -->
 
+      
       <!-- ======== 1.12. footer section ======== -->
       <footer>
         <div class="container">
@@ -178,13 +272,21 @@
               method="POST"
             >
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_subject" value="New email subscribtion!">
-              <input type="hidden" name="_next" value="https://falakbank.vercel.app/email.html">
+              <input
+                type="hidden"
+                name="_subject"
+                value="New email subscribtion!"
+              />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://falakbank.vercel.app/email.html"
+              />
               <input
                 name="email"
                 type="email"
                 placeholder="Enter Your Email"
-                required  
+                required
               />
               <button type="submit" name="submit" class="hover1">
                 Subscribe
@@ -345,7 +447,7 @@
           if (b) {
             var d = b.createElement("script");
             d.innerHTML =
-              "window.__CF$cv$params={r:'8eac9d5cce0dee76',t:'MTczMjk4ODM0NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+              "window.__CF$cv$params={r:'8eac9d5cbcf7ee8c',t:'MTczMjk4ODM0NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
             b.getElementsByTagName("head")[0].appendChild(d);
           }
         }
