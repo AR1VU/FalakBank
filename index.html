@@ -117,41 +117,22 @@
               ></button>
             </div>
             <ul class="pt-4">
-              <li class="nav-item active">
-                <a aria-current="page" href="/">Home</a>
+              <li class="nav-item">
+                <a aria-current="page" class="nav-link active" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a href="About.html">About</a>
+                <a class="nav-link" href="/noura/">Noura AI</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cards</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">Blog</a>
               </li>
               <li class="nav-item">
-                <a>Services</a>
-              </li>
-              <li class="nav-item">
-                <a href="/contact/">Contact</a>
-              </li>
-              <li class="nav-item">
-                <div
-                  class="d-flex align-items-center justify-content-between"
-                  id="slid-btn"
-                >
-                  <button class="a-slid page-btn">Pages</button>
-                  <i class="fa-solid fa-caret-down pe-2"></i>
-                </div>
-                <ul id="slid-drop">
-                  <li><a href="/cards/">Pricing</a></li>
-                  <li>
-                    <a href="Testimonials.html">Testimonials</a>
-                  </li>
-                  <li><a href="Team.html">Team</a></li>
-                  <li><a href="Blogs.html">Blogs</a></li>
-                  <li>
-                    <a href="BlogDetails.html">Blog Details</a>
-                  </li>
-                  <li><a href="Error.html">404</a></li>
-                  <li>
-                    <a href="ComingSoon.html">Coming Soon</a>
-                  </li>
-                </ul>
+                <a class="nav-link" href="/contact/">Contact</a>
               </li>
             </ul>
           </div>
@@ -676,12 +657,18 @@
                         xml:space="preserve"
                       >
                         <style type="text/css">
-                          <![CDATA[
-                                                  .st0{fill:#128807;}
-                                                  .st1{fill:#FF9933;}
-                                                  .st2{fill:#FFFFFF;}
-                                                  .st3{fill:#000088;}
-                                                ]]>
+                          .st0 {
+                            fill: #128807;
+                          }
+                          .st1 {
+                            fill: #ff9933;
+                          }
+                          .st2 {
+                            fill: #ffffff;
+                          }
+                          .st3 {
+                            fill: #000088;
+                          }
                         </style>
                         <g>
                           <path
@@ -1058,9 +1045,10 @@
                 data-aos="flip-left"
                 style="
                   background: url(&quot;https://falakapp.vercel.app/assets/images/card.png&quot;);
-                  background-size: 102%;
+                  background-color: black;
+                  background-position: right;
                   background-repeat: no-repeat;
-                  background-position: 0px;
+                  background-size: cover;
                 "
               >
                 <h4>Debit Cards</h4>
@@ -1069,7 +1057,7 @@
                   everyday needs. Secure transactions, easy account access, and
                   global usability make it your reliable financial partner.
                 </p>
-                
+
                 <div><a href="/cards/" class="hover2">See all</a></div>
               </div>
             </div>
@@ -1079,6 +1067,9 @@
                 style="
                   background: url(/assets/images/Pricing/rubycard.svg);
                   background-color: black;
+                  background-position: right;
+                  background-repeat: no-repeat;
+                  background-size: cover;
                 "
                 data-aos="flip-left"
               >
@@ -1089,7 +1080,7 @@
                   matches your refined tastes, tailored for those who value
                   sophistication.
                 </p>
-                
+
                 <div><a href="/cards/" class="hover2">See all</a></div>
               </div>
             </div>
@@ -1120,7 +1111,7 @@
                       <img
                         src="/blog/posts/1.webp"
                         alt="blog_img1"
-                        style="width: 280px; height: 385px"
+                        style="width: 100%;"
                       />
                     </figure>
                     <div class="d-flex justify-content-center flex-column">

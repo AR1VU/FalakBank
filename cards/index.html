@@ -44,7 +44,7 @@
                 <img
                   src="/assets/images/logo.svg"
                   alt="logo"
-                  style="width: 100%"
+                  style="width: 100%; fill: white"
                 />
               </figure>
             </a>
@@ -67,30 +67,24 @@
                     <li class="nav-item">
                       <a class="nav-link" href="/">Home</a>
                     </li>
-                    
+
                     <li class="nav-item">
-                      <a class="nav-link" href="/noura/"
-                        >Noura AI</a
-                      >
+                      <a class="nav-link" href="/noura/">Noura AI</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link  active" href="/cards/"
-                        >Cards</a
-                      >
+                      <a class="nav-link active" href="#">Cards</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="/blog/"
-                        >Blog</a
-                      >
+                      <a class="nav-link" href="/blog/">Blog</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="/contact/">Contact</a>
                     </li>
                   </ul>
                 </div>
-                
+
                 <div>
                   <a class="hover2 down-btn" id="getStartedAnchor"
                     >Coming Soon</a
@@ -100,7 +94,7 @@
             </div>
           </div>
         </nav>
-        
+
         <!--===== aside navigation slidebar =====-->
         <aside>
           <div id="mySidenav" class="right-sidbar">
@@ -119,40 +113,21 @@
             </div>
             <ul class="pt-4">
               <li class="nav-item">
-                <a aria-current="page" href="/">Home</a>
+                <a aria-current="page" class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a href="About.html">About</a>
+                <a class="nav-link" href="/noura/">Noura AI</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cards</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="/blog/">Blog</a>
               </li>
               <li class="nav-item">
-                <a >Services</a>
-              </li>
-              <li class="nav-item">
-                <a href="/contact/">Contact</a>
-              </li>
-              <li class="nav-item">
-                <div
-                  class="active d-flex align-items-center justify-content-between"
-                  id="slid-btn"
-                >
-                  <button class="a-slid page-btn">Pages</button>
-                  <i class="fa-solid fa-caret-down pe-2"></i>
-                </div>
-                <ul id="slid-drop">
-                  <li><a href="/cards/" class="active">Pricing</a></li>
-                  <li>
-                    <a href="Testimonials.html">Testimonials</a>
-                  </li>
-                  <li><a href="Team.html">Team</a></li>
-                  <li><a href="Blogs.html">Blogs</a></li>
-                  <li>
-                    <a href="BlogDetails.html">Blog Details</a>
-                  </li>
-                  <li><a href="Error.html">404</a></li>
-                  <li>
-                    <a href="ComingSoon.html">Coming Soon</a>
-                  </li>
-                </ul>
+                <a class="nav-link" href="/contact/">Contact</a>
               </li>
             </ul>
           </div>
@@ -173,13 +148,13 @@
                 class="d-flex flex-column justify-content-center gap-md-4 gap-3 h-100"
                 data-aos="fade-up"
               >
-                <h2 class="pb-2">
-                  Our Pricing Plan For <span>Customer In</span> World
-                </h2>
+                <h2 class="pb-2">Our <span>Cards</span></h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the standard dummy
-                  text ever since the 1500s.
+                  Discover a range of cards designed to meet your unique needs,
+                  offering seamless transactions, exclusive perks, and
+                  unparalleled convenience for every lifestyle. Empower your
+                  journey with features that simplify your finances while
+                  unlocking rewards and privileges tailored to your aspirations.
                 </p>
               </div>
             </div>
@@ -189,10 +164,11 @@
                 class="d-flex flex-column h-100 gap-4"
                 data-aos="flip-left"
                 style="
-                  background: url('https://falakapp.vercel.app/assets/images/card.png');
-                  background-size: 102%;
+                  background: url(&quot;https://falakapp.vercel.app/assets/images/card.png&quot;);
+                  background-color: black;
+                  background-position: right;
                   background-repeat: no-repeat;
-                  background-position: 0px;
+                  background-size: cover;
                 "
               >
                 <h4>Personal</h4>
@@ -205,17 +181,20 @@
                   <h2>
                     <span class="number d-inline">Free</span>
                   </h2>
-                  <p>Forever</p>
                 </div>
-                <div><a href="/cards/" class="hover2">Coming Soon</a></div>
+                <p>Forever</p>
+                <div><a href="#" class="hover2">Coming Soon</a></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
               <div
                 class="d-flex flex-column h-100 gap-4"
                 style="
-                  background: url('/assets/images/Pricing/rubycard.svg');
+                  background: url(&quot;/assets/images/Pricing/rubycard.svg&quot;);
                   background-color: black;
+                  background-position: right;
+                  background-repeat: no-repeat;
+                  background-size: cover;
                 "
                 data-aos="flip-left"
               >
@@ -226,12 +205,12 @@
                   more memorable.
                 </p>
                 <div class="d-flex gap-2 align-items-center">
-                  <h2 style="width: 25%">
+                  <h2 style="width: 100%">
                     <span class="number d-inline">Free</span>
                   </h2>
-                  <p>for the First Year (AED 200/Year)</p>
                 </div>
-                <div><a href="/cards/" class="hover2">Coming Soon</a></div>
+                <p>for the First Year (AED 200/Year)</p>
+                <div><a href="#" class="hover2">Coming Soon</a></div>
               </div>
             </div>
 
@@ -239,9 +218,9 @@
               <div
                 class="d-flex flex-column h-100 gap-4"
                 style="
-                  background: url('/assets/images/Pricing/businesscard.svg');
+                  background: url(&quot;/assets/images/Pricing/businesscard.svg&quot;);
                   background-color: black;
-                  background-position: 0;
+                  background-position: center;
                   background-repeat: no-repeat;
                   background-size: cover;
                 "
@@ -254,20 +233,23 @@
                   access tools that help drive growth and innovation.
                 </p>
                 <div class="d-flex gap-2 align-items-center">
-                  <h2 style="width: 35%">
+                  <h2 style="width: 100%">
                     <span class="number d-inline">AED 50</span>
                   </h2>
-                  <p>Per User / Per Month</p>
                 </div>
-                <div><a href="/cards/" class="hover2">Coming Soon</a></div>
+                <p>Per User / Per Month</p>
+                <div><a href="#" class="hover2">Coming Soon</a></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
               <div
                 class="d-flex flex-column h-100 gap-4"
                 style="
-                  background: url('/assets/images/Pricing/platinumcard.svg');
+                  background: url(&quot;/assets/images/Pricing/platinumcard.svg&quot;);
                   background-color: black;
+                  background-position: right;
+                  background-repeat: no-repeat;
+                  background-size: cover;
                 "
                 data-aos="flip-left"
               >
@@ -278,20 +260,23 @@
                   everyday experiences.
                 </p>
                 <div class="d-flex gap-2 align-items-center">
-                  <h2 style="width: 45%">
+                  <h2 style="width: 100%">
                     <span class="number d-inline">AED 1000</span>
                   </h2>
-                  <p>Per Year</p>
                 </div>
-                <div><a href="/cards/" class="hover2">Coming Soon</a></div>
+                <p>Per Year</p>
+                <div><a href="#" class="hover2">Coming Soon</a></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
               <div
                 class="d-flex flex-column h-100 gap-4"
                 style="
-                  background: url('https://falakapp.vercel.app/assets/images/card-pattern.svg');
+                  background: url(&quot;https://falakapp.vercel.app/assets/images/card-pattern.svg&quot;);
                   background-color: black;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
                 "
                 data-aos="flip-left"
               >
@@ -303,36 +288,39 @@
                   sophistication.
                 </p>
                 <div class="d-flex gap-2 align-items-center">
-                  <h2 style="width: 40%">
+                  <h2 style="width: 100%">
                     <span class="number d-inline">AED 100</span>
                   </h2>
-                  <p>Per Month</p>
                 </div>
-                <div><a href="/cards/" class="hover2">Coming Soon</a></div>
+                <p>Per Month</p>
+                <div><a href="#" class="hover2">Coming Soon</a></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
               <div
                 class="d-flex flex-column h-100 gap-4"
                 style="
-                  background: url('/assets/images/Pricing/titaniumcard.svg');
+                  background: url(&quot;/assets/images/Pricing/titaniumcard.svg&quot;);
                   background-color: black;
+                  background-position: right;
+                  background-repeat: no-repeat;
+                  background-size: cover;
                 "
                 data-aos="flip-left"
               >
-                <h4>Titanium Debit Card</h4>
+                <h4>Titanium Credit Card</h4>
                 <p class="pb-2 flex-grow-1">
                   Indulge in the ultimate luxury with unmatched privileges,
                   premium travel perks, and lifestyle benefits designed for
                   those who demand the best.
                 </p>
                 <div class="d-flex gap-2 align-items-center">
-                  <h2 style="width: 50%">
+                  <h2 style="width: 100%">
                     <span class="number d-inline">AED 5000</span>
                   </h2>
-                  <p>Per Year</p>
                 </div>
-                <div><a href="/cards/" class="hover2">Coming Soon</a></div>
+                <p>Per Year</p>
+                <div><a href="#" class="hover2">Coming Soon</a></div>
               </div>
             </div>
 
@@ -342,11 +330,11 @@
               <div
                 class="d-flex flex-column h-100 gap-4"
                 style="
-                  background: url('/assets/images/Pricing/youthcard.svg');
+                  background: url(&quot;/assets/images/Pricing/youthcard.svg&quot;);
                   background-color: black;
-                  background-position: 0;
+                  background-position: center;
                   background-repeat: no-repeat;
-                  background-size: 105%;
+                  background-size: cover;
                 "
                 data-aos="flip-left"
               >
@@ -354,16 +342,16 @@
                 <p class="pb-2 flex-grow-1">
                   Empowering the next generation with a card designed for young
                   achievers. Enjoy convenience, smart savings, and features that
-                  fit your dynamic lifestyle. 
+                  fit your dynamic lifestyle.
                 </p>
                 <p>We love minors!</p>
                 <div class="d-flex gap-2 align-items-center">
-                  <h2 style="width: 25%">
+                  <h2 style="width: 100%">
                     <span class="number d-inline">Free</span>
                   </h2>
-                  <p>(Under 18)</p>
                 </div>
-                <div><a href="/cards/" class="hover2">Coming Soon</a></div>
+                <p>(Under 18)</p>
+                <div><a href="#" class="hover2">Coming Soon</a></div>
               </div>
             </div>
           </div>
@@ -384,13 +372,21 @@
               method="POST"
             >
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_subject" value="New email subscribtion!">
-              <input type="hidden" name="_next" value="https://falakbank.vercel.app/email.html">
+              <input
+                type="hidden"
+                name="_subject"
+                value="New email subscribtion!"
+              />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://falakbank.vercel.app/email.html"
+              />
               <input
                 name="email"
                 type="email"
                 placeholder="Enter Your Email"
-                required  
+                required
               />
               <button type="submit" name="submit" class="hover1">
                 Subscribe
