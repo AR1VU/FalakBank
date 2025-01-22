@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
     "transform 0.2s ease, left 0.1s ease, top 0.1s ease";
   document.body.appendChild(cursorEffect);
 
+  // if mobile device remove cursor effect
+  if (window.innerWidth < 1024) {
+    cursorEffect.style.display = "none";
+  }
+
   document.addEventListener("mousemove", function (e) {
     var cursorSize = 30;
     var x = Math.max(0, Math.min(e.clientX, window.innerWidth - cursorSize));
