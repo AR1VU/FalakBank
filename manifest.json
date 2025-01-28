@@ -5,11 +5,11 @@
   "background_color": "#131314",
   "display": "standalone",
   "scope": "https://app.bank.falaknet.com",
-  "start_url": "/preloader.html",
+  "start_url": "https://app.bank.falaknet.com/preloader.html",
   "description": "Al Falak Community Bank",
   "orientation": "portrait",
   "serviceworker": {
-    "src": "/sw.js",
+    "src": "https://app.bank.falaknet.com/sw.js",
     "scope": "https://app.bank.falaknet.com"
   },
   "id": "325252265",
