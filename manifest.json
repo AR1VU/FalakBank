@@ -1,0 +1,28 @@
+{
+  "name": "Al Falak Bank",
+  "short_name": "Falak Bank",
+  "theme_color": "#131314",
+  "background_color": "#131314",
+  "display": "standalone",
+  "scope": "https://app.bank.falaknet.com",
+  "start_url": "/preloader.html",
+  "description": "Al Falak Community Bank",
+  "orientation": "portrait",
+  "serviceworker": {
+    "src": "/sw.js",
+    "scope": "https://app.bank.falaknet.com"
+  },
+  "id": "325252265",
+  "categories": [
+    "finance"
+  ],
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "lang": "en",
+  "dir": "ltr"
+}
