@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "falakbank",
     "public": "/",
     "ignore": [
       "firebase.json",
